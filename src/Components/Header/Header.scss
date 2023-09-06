@@ -1,0 +1,32 @@
+.header-container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 15px 10px -15px #0f1829;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+  background-color: white;
+}
+.search {
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  outline: none;
+  padding: 0px 25px;
+  font-size: 16px;
+}
+.siteName {
+  margin-right: 25px;
+  text-align: left;
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+}

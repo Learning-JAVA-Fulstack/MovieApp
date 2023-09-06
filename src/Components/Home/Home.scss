@@ -1,0 +1,10 @@
+.movie-list {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.view-more {
+  cursor: pointer;
+  text-align: center;
+  margin-left: auto;
+}

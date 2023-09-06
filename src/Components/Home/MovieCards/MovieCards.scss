@@ -1,0 +1,45 @@
+.main-contanier {
+  overflow: hidden;
+  margin: 10px;
+  transition: 0.3s ease;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.movie-container {
+  position: relative;
+  border-radius: 20px;
+  background-size: contain;
+  cursor: pointer;
+}
+.movie-details {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  transform: translateY(100%);
+  transition: 0.3s;
+  background-color: rgb(255, 255, 255, 0.705);
+  padding: 10px;
+  width: 90%;
+  height: 20%;
+  .movie-name {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  p {
+    margin: 0;
+    font-size: 12px;
+  }
+}
+.movie-container:hover .movie-details {
+  transform: translateY(0%);
+}
+.main-contanier:hover {
+  transform: scale(1.1);
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
