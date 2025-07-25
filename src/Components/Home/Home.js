@@ -12,9 +12,7 @@ function Home() {
     <div>
       <Header />
       <div className="movie-list">
-        {array.map(() => (
           <MovieCards />
-        ))}
       </div>
     </div>
   );
