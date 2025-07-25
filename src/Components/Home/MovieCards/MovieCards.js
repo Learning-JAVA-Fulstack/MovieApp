@@ -14,7 +14,7 @@ function MovieCards() {
   return (
     <div className="main-contanier" onClick={() => navigate("/movie-detail")}>
       <div className="movie-container">
-        <img src={image} className="image" />
+        <img src={image} className="image" alt="spider-man" />
         <div className="movie-details">
           <p className="movie-name">{movieDratils.movieName}</p>
           <p>Realead On:{movieDratils.releasedOn}</p>
