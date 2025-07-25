@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
 import image from "../../Images/spidermannowhome.jpg";
-import BackgroundVideo from "./BackGroundVideo";
 
 function MovieDetails() {
   const movieDratils = {
@@ -26,7 +25,7 @@ function MovieDetails() {
         }}
       >
         <div>
-          <img src={image} />
+          <img src={image} alt="DOnt know"/>
         </div>
         <div
           style={{ marginLeft: 20, display: "flex", flexDirection: "column" }}
